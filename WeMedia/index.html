@@ -1,174 +1,498 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="description" content="">
-  <title>WeMedia</title>
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- Custom styling -->
-  <link rel="stylesheet" href="css/style.css">
-  <style>
-   div.bar {
-    display: inline-block;
-    width: 20px;
-    height: 75px;   /* We'll override this later */
-    background-color: teal;
-    margin-right: 2px;
-  }
+<!DOCTYPE html>
+<html lang="en">
 
-  div.v_bar {
-    display: inline-block;
-    position: absolute;
-    width: 75px;
-    height: 20px;   /* We'll override this later */
-    background-color: teal;
-    margin-top: 2px;
-  }
-</style>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>WeMedia.</title>
+
+  <!-- Custom fonts for this theme -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Theme CSS -->
+  <link href="css/freelancer.min.css" rel="stylesheet">
+
 </head>
 
-<body>
+<body id="page-top">
 
-  <div>
-    <div class='col-lg-6'>
-      <h3>Politics</h3>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">We Media</a>
+      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Topics</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Graph</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Mission</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-      <p>Politics (from Greek: πολιτικά, translit. Politiká, meaning "affairs of the cities") refers to a set of activities associated with the governance of a country, or an area. It involves making decisions that apply to members of a group.[1]
+  <!-- Masthead -->
+  <header class="masthead bg-primary text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
 
-        It refers to achieving and exercising positions of governance—organized control over a human community, particularly a state.[2] The academic study focusing on just politics, which is therefore more targeted than all Political science, is sometimes referred to as Politology (not to be confused with Politicology).
+      <!-- Masthead Avatar Image -->
+      <img class="masthead-avatar mb-5" src="img/crowd-protest.jpg" alt="">
 
-      In modern nation-states, people have formed political parties to represent their ideas. They agree to take the same position on many issues and agree to support the same changes to law and the same leaders.</p>
+      <!-- Masthead Heading -->
+      <h1 class="masthead-heading text-uppercase mb-0">We Media</h1>
 
-      <br/>
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
 
-      <a href="https://en.wikipedia.org/wiki/Politics">Read full article >></a>
+      <!-- Masthead Subheading -->
+      <p class="masthead-subheading font-weight-light mb-0">A new-age media platform aimed at fighting bias, evolving our world view, and of course - fun.</p>
 
-      <p>Author: <a href="https://en.wikipedia.org">Wikipedia</a></p>
+    </div>
+  </header>
 
-      <hr/>
+  <!-- Portfolio Section -->
+  <section class="page-section portfolio" id="portfolio">
+    <div class="container">
 
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Type related idea " aria-label="Recipient's username" aria-describedby="basic-addon2">
-        <div class="input-group-append">
-          <button class="btn btn-success" type="button">Link idea</button>
+      <!-- Portfolio Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Topics</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- Portfolio Grid Items -->
+      <div class="row">
+
+        <!-- Portfolio Item 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
+          </div>
+        </div>
+
+        <!-- Portfolio Item 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/cake.png" alt="">
+          </div>
+        </div>
+
+        
+        <!-- Portfolio Item 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/circus.png" alt="">
+          </div>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="page-section bg-primary text-white mb-0" id="about">
+    <div class="container">
+
+      <!-- About Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-white">Graph</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- About Section Content -->
+      <div class="row">
+        <div class="col-lg-4 ml-auto">
+          <p class="lead">All concepts discussed within topics are visualized as a graph. These help the user to understand how different topics are related. Also, you can play around with the graph for knowledge discovery.</p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="lead">You can add new nodes to the graph by submitting your own content. You can also connect nodes together if you observe a relationship.</p>
         </div>
       </div>
 
-      <hr/>
-
-      <div id="visual"></div>
-
-    </div>
-
-
-
-    <div class='col-lg-6'>
-      <h3>And TV</h3>
-      <p>
-        <a href="https://www.youtube.com/watch?v=gJW4-cOZt8A">Politics, like all media, has become show business</a>.
-
-      </p>
-
-      <br/>
-
-      <p>Added by: <a href="#">Abhishek Poojary</a></p>
-
-      <hr/>
-
-      <p>
-        <p><a href="https://www.youtube.com/watch?v=z1afqR5QkDM">We live in the age of aesthetic, not reason. This explains the rise of fascists.</a></p>
-
-        <p>Added by: <a href="#">Abhishek Poojary</a></p>
-      </p>
-
-      <hr/>
-
-      <p>
-        Characteristics of this link
-        <ol>
-          <li>Fascism</li>
-          <li>Misinformation propagation</li>
-        </ol>
-      </p>
+      <!-- About Section Button -->
+      <div class="text-center mt-4">
+        <a class="btn btn-xl btn-outline-light" href="#">
+          <i class="fas fa-project-diagram mr-2"></i>
+          Explore the graph!
+        </a>
+      </div>
 
     </div>
+  </section>
 
+  <!-- Contact Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+
+      <!-- Contact Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Mission</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <p class="lead">
+      There is an inherent bias in every form of media currently available to masses. With the increasing use of AI in recommender systems, this bias seems to be growing unconstrained. 
+      </p>
+
+      <p class="lead">
+      We-media attempts to show the user ‘what is not’ alongside ‘what is’. Counter views and context form the backdrop of all articles on the platform.
+
+      </p>
+
+      <p class="lead">
+      Technology is the supplementary arm of We-media. Topics / concepts / ideas are added to the graph by bots crawling the internet.
+      </p>
+
+      <p class="lead">
+      An ambitious goal for the platform and contributors is to identify and scrutinize the world views going around. 
+      </p>
+
+    </div>
+  </section>
+
+  <!-- Copyright Section -->
+  <section class="copyright py-4 text-center text-white">
+    <div class="container">
+      <small>Copyright &copy; We Media 2020</small>
+    </div>
+  </section>
+
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-to-top d-lg-none position-fixed ">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
   </div>
 
+  <!-- Portfolio Modals -->
 
-    <!-- Bootstrap grid setup 
-    <div class="container">
-        <div class="row">
-            <div id="chart-area"></div>
-        </div>	
-      </div>-->
+  <!-- Portfolio Modal 1 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Literature</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/cabin.png" alt="">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Explore philosophies, books and related concepts.</p>
+                <a class="btn btn-primary" href="#">
+                Explore
+                <i class="fas fa-angle-double-right"></i>
+                </a>
 
-      <!-- External JS libraries -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.0.0/d3.min.js"></script>
-      <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
-      crossorigin="anonymous"></script>
-      <script>
+                <br>
+                <br>
 
-        var width = 960,
-        height = 500
 
-        var svg = d3.select("#visual").append("svg")
-        .attr("align","center")
-        .attr("width", width)
-        .attr("height", height);
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-        var force = d3.layout.force()
-        .gravity(.05)
-        .distance(100)
-        .charge(-100)
-        .size([width, height]);
+  <!-- Portfolio Modal 2 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Capitalism</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/cake.png" alt="">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Explore economical school of thoughts.</p>
+                
+                <a class="btn btn-primary" href="Capitalism.html">
+                Explore
+                <i class="fas fa-angle-double-right"></i>
+                </a>
 
-        d3.json("graphFile.json", function(json) {
-          force
-          .nodes(json.nodes)
-          .links(json.links)
-          .start();
+                <br>
+                <br>
 
-          var link = svg.selectAll(".link")
-          .data(json.links)
-          .enter().append("line")
-          .attr("class", "link")
-          .style("stroke-width", function(d) { return Math.sqrt(d.weight); });
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-          var node = svg.selectAll(".node")
-          .data(json.nodes)
-          .enter().append("g")
-          .attr("class", "node")
-          .call(force.drag);
+  <!-- Portfolio Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Politics</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/circus.png" alt="">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Explore political school of thoughts.</p>
+                <a class="btn btn-primary" href="Politics.html">
+                Explore
+                <i class="fas fa-angle-double-right"></i>
+                </a>
 
-          node.append("circle")
-          .attr("r","5");
+                <br>
+                <br>
 
-          node.append("text")
-          .attr("dx", 12)
-          .attr("dy", ".35em")
-          .text(function(d) { return d.name });
 
-          node.on("click", function(d){
-            console.log(d);
-       // here you can access data of node using d.key 
-       alert("You clicked on node " + d.name);
-     });	  
-          
-          force.on("tick", function() {
-            link.attr("x1", function(d) { return d.source.x; })
-            .attr("y1", function(d) { return d.source.y; })
-            .attr("x2", function(d) { return d.target.x; })
-            .attr("y2", function(d) { return d.target.y; });
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-            node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
-          });
-        });
+  <!-- Portfolio Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/game.png" alt="">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-      </script>
+  <!-- Portfolio Modal 5 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/safe.png" alt="">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    </body>
-    </html>
+  <!-- Portfolio Modal 6 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/submarine.png" alt="">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/freelancer.min.js"></script>
+
+</body>
+
+</html>
